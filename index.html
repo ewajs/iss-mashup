@@ -26,22 +26,16 @@
             <h2>What's the ISS?</h1></div>
       </div>
       <div class="row">
-        <div class="col-8">
+        <div class="col-md-8 col-sm-12">
           <img src="iss.jpg" alt="International Space Station" width="100%" />
         </div>
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
           <p>
             The International Space Station (ISS) is a space station (habitable
             artificial satellite) in low Earth orbit. The ISS programme is a
             joint project between five participating space agencies: NASA
             (United States), Roscosmos (Russia), JAXA (Japan), ESA (Europe), and
-            CSA (Canada). The ownership and use of the space station is
-            established by intergovernmental treaties and agreements. The ISS
-            serves as a microgravity and space environment research laboratory
-            in which crew members conduct experiments in biology, human biology,
-            physics, astronomy, meteorology, and other fields. The station is
-            suited for the testing of spacecraft systems and equipment required
-            for missions to the Moon and Mars. The ISS maintains an orbit with
+            CSA (Canada). The ISS maintains an orbit with
             an average altitude of 400 kilometres (250 mi) by means of reboost
             manoeuvres using the engines of the Zvezda module or visiting
             spacecraft. It circles the Earth in roughly 92 minutes and completes
@@ -53,10 +47,10 @@
         <div class="col"><h2>Where's the ISS?</h1></div>
       </div>
       <div class="row">
-        <div class="col-8">
+        <div class="col-md-8 col-sm-12">
           <div id="mapid"></div>
         </div>
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
           <h2>ISS Current Location</h2>
           <h4>Latitude: <span id="lat"></span></h4>
           <h4>Longitude: <span id="long"></span></h4>
@@ -98,18 +92,18 @@
           <div class="col"><h2>While you wait... Some Space Pics!!</h2></div>
       </div>
       <div class="row">
-          <div class="col-8">
+          <div class="col-md-8 col-sm-12">
               <h4>Astronomy Picture of the Day</h4>
-              <img src="" alt="" id="apod" width="100%">
+              <img src="" alt="" id="apod" width="100%"><br/>
+              <button type="button" class="btn btn-success" id="apodBtn">
+                      Show me one!
+                    </button>
           </div>
-          <div class="col-4"><h4>Info</h4>
+          <div class="col-md-4 col-sm-12"><h4>Info</h4>
             <h5>Title: <span id="apodTitle"></span></h5>
             <h5>Date: <span id="apodDate"></span></h5>
             <h5>Description</h5>
             <p id="apodDesc"></p>
-            <button type="button" class="btn btn-success" id="apodBtn">
-                    Show me one!
-                  </button>
         </div>
       </div>
       
